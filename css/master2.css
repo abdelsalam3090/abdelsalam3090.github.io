@@ -73,3 +73,45 @@ video {
     border-radius: 10px;
     border:3px solid #fff;
 }
+@media (max-width:1023px) {
+    nav input[type=text]{
+        float: right;
+        width: 300px;
+        padding: 6px;
+        border: none;
+        margin-top: -45px;
+        margin-right: 40px;
+        font-size: 17px;
+        border-radius: 10px;
+        outline: none;
+    }
+    video {
+        width: 537px;
+        height: 306px;
+        margin-left: 25%;
+        border-radius: 10px;
+        border:3px solid #fff;
+        margin-left: 22%;
+    }
+}
+@media (width:1024px) {
+    nav input[type=text]{
+        float: right;
+        width: 300px;
+        padding: 6px;
+        border: none;
+        margin-top: 16px;
+        margin-right: 40px;
+        font-size: 17px;
+        border-radius: 10px;
+        outline: none;
+    }
+    video {
+        width: 537px;
+        height: 306px;
+        margin-left: 25%;
+        border-radius: 10px;
+        border:3px solid #fff;
+        margin-left: 22%;
+    }
+}
