@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8"./>
+        <meta >
+        <title>login to series4U</title>
+        <link rel="stylesheet" href="css/style_login.css">
+    </head>
+    <body>
+      <header>
+        <div id="logo">
+          <img src="images/for you1-01.png" alt="logo">
+      </div>
+      <nav>
+         <a href="index.html">Home</a>
+         <a href="#">Series</a>
+         <a href="#">About</a>
+          <input type="text" placeholder="search...">
+      </nav>
+      </header>
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+      <button type="button" class="toggle-btn" onclick="login()">login</button>
+      <button type="button" class="toggle-btn" onclick="signup()">sign up</button>
+        </div>
+        <div class="social-icons">
+          <img src="images/facebook.png" width="30px" height="30px" >
+          <img src="images/google.png" width="30px" height="30px">
+        </div>
+        <form id="login" class="input-group">
+          <input type="text" class="input-field" placeholder="Username" required>
+          <input type="password" class="input-field" placeholder="Enter password" required>
+          <input type="checkbox" class="check-box"><span>Remeber Me</span>
+          <button type="submit" class="submit-btn">Login</button>
+        </form>
+         <form id="signup" class="input-group">
+          <input type="text" class="input-field" placeholder="Username" required>
+          <input type="email" class="input-field" placeholder="Email" required>
+          <input type="password" class="input-field" placeholder="Enter password" required>
+          <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+          <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+      </div>
+      <script>
+        var x = document.getElementById("login")
+        var y = document.getElementById("signup")
+        var z = document.getElementById("btn")
+
+        function signup(){
+          x.style.left = "-400px"
+          y.style.left = "50px"
+          z.style.left = "110px"
+        }
+        function login(){
+          x.style.left = "50px"
+          y.style.left = "450px"
+          z.style.left = "0px"
+        }
+
+
+      </script>
+    </body>
+</html>
